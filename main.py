@@ -45,5 +45,15 @@ class Game:
 
 
 # Программа
-new_game = Game()
-new_game.start()
+if __name__ == '__main__':
+
+    # Тестирование класса игрок
+    new_hero = Hero('Мощный воин')
+    print(new_hero.name)
+    print(new_hero.health)
+    print(new_hero.attack_power)
+    print('Тест завершен\n')
+
+    # Тестирование класса игра
+    new_game = Game()
+    new_game.start()
