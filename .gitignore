@@ -157,5 +157,6 @@ cython_debug/
 # PyCharm
 .idea/
 
-#Word
+#Word, Images
 *.docx
+#.png
